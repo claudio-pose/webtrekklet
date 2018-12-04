@@ -31,6 +31,7 @@ function createWebtrekklet() {
             $('#webtrekklet').append($t);
             $e.css({
               textAlign: 'left',
+              backgroundColor: 'white',
               position: 'fixed',
               top: '0px',
               paddingTop: '10px',
