@@ -31,9 +31,8 @@ function createWebtrekklet() {
             $('#webtrekklet').append($t);
             $e.css({
               textAlign: 'left',
-              position: 'block',
-              marginTop: '50px',
-              marginLeft: '10px',
+              position: 'fixed',
+              top: '0px',
               paddingTop: '10px',
               paddingLeft: '10px',
               paddingRight: '10px',
