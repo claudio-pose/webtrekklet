@@ -36,8 +36,7 @@ function createWebtrekklet() {
                 top: '0px',
                 marginLeft: 'auto',
                 marginRight: 'auto',
-                width: '768px',
-                maxWidth: '768px',
+                width: '100%',
                 backgroundColor: 'white',
                 marginTop: '10px',
                 marginBottom: '10px'
