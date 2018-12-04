@@ -55,13 +55,13 @@ function createWebtrekklet() {
 function showHideWebtrekklet() {
     if (webtrekkletVisible == false) {
       webtrekkletDiv = $('#webtrekklet');
-      webtrekkletDiv.style.display='block';
-      webtrekkletDiv.style.visibility='visible';
+      webtrekkletDiv.css('display', 'block');
+      webtrekkletDiv.css('visibility', 'visible');
       webtrekkletVisible = true;  
     } else {
       webtrekkletDiv = $('#webtrekklet');
-      webtrekkletDiv.style.display='none';
-      webtrekkletDiv.style.visibility='hidden';
+      webtrekkletDiv.css('display', 'none');
+      webtrekkletDiv.css('visibility', 'hidden');
       webtrekkletVisible = false;
     }
 }
