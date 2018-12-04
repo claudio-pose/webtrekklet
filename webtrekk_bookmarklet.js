@@ -1,7 +1,6 @@
 var webtrekkletVisible = false;
 
 (function() {
-  alert("Test");
   if ($('#webtrekklet').length == 0) {
     createWebtrekklet();
   } else {
