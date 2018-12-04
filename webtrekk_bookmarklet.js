@@ -33,8 +33,8 @@ function createWebtrekklet() {
                 textAlign: 'left',
                 position: 'block',
                 top: '0px',
-                marginLeft: 'auto',
-                marginRight: 'auto',
+                marginLeft: '10px',
+                marginRight: '10px',
                 width: '100%',
                 marginTop: '10px',
                 marginBottom: '10px'
