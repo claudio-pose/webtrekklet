@@ -30,12 +30,12 @@ function createWebtrekklet() {
             $('body').prepend($e);
             $('#webtrekklet').append($t);
             $t.css({
-                textAlign: 'left',
-                position: 'block',
-                paddingLeft: '10px',
-                paddingRight: '10px',
-                width: '100%',
-                paddingTop: '50px'
+              textAlign: 'left',
+              position: 'block',
+              paddingTop: '10px',
+              paddingLeft: '10px',
+              paddingRight: '10px',
+              width: '100%'
             })
         };
         $('head').prepend('<meta property="og:url" content="https:/ / www.srf.ch / " />');
