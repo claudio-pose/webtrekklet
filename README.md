@@ -1,7 +1,7 @@
 # webtrekklet
 
 ## Installation
-To install the webtrekk bookmarklet simply add a new bookmark that points to the following URL.
+To install the webtrekk bookmarklet simply add a new bookmark that points to the following URL or drag the links to your browser's bookmark bar.
 
 **For production:**
 ```javascript
