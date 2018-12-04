@@ -37,7 +37,7 @@ function createWebtrekklet() {
               paddingLeft: '10px',
               paddingRight: '10px',
               width: '100%',
-              zIndex: '200'
+              zIndex: '2000'
             })
         };
         $('head').prepend('<meta property="og:url" content="https:/ / www.srf.ch / " />');
