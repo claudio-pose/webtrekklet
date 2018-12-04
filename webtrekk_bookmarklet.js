@@ -57,14 +57,14 @@ function createWebtrekklet() {
 }
   
 function showWebtrekklet() {
-  webtrekkletDiv = $('#webtrekklet')
+  webtrekkletDiv = $('#webtrekklet');
   webtrekkletDiv.style.display='block';
   webtrekkletDiv.style.visibility='visible';
   webtrekkletVisible = true;  
 }
 
 function hideWebtrekklet() {
-  webtrekkletDiv = $('#webtrekklet')
+  webtrekkletDiv = $('#webtrekklet');
   webtrekkletDiv.style.display='none';
   webtrekkletDiv.style.visibility='hidden';
   webtrekkletVisible = false;
