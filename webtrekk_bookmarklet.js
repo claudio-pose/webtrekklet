@@ -52,14 +52,10 @@ function createWebtrekklet() {
   
 function showHideWebtrekklet() {
     if (webtrekkletVisible == false) {
-      webtrekkletDiv = $('#webtrekklet');
-      webtrekkletDiv.css('display', 'block');
-      webtrekkletDiv.css('visibility', 'visible');
+      $('#webtrekklet').css('visibility', 'visible');
       webtrekkletVisible = true;  
     } else {
-      webtrekkletDiv = $('#webtrekklet');
-      webtrekkletDiv.css('display', 'none');
-      webtrekkletDiv.css('visibility', 'hidden');
+      $('#webtrekklet').css('visibility', 'hidden');
       webtrekkletVisible = false;
     }
 }
