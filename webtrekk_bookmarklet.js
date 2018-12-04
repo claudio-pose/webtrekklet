@@ -5,7 +5,7 @@ var webtrekkletVisible = false;
   if ($('#webtrekklet').length == 0) {
     createWebtrekklet();
   } else {
-    if (webtrekkletVisible) {
+    if (webtrekkletVisible == false) {
       showWebtrekklet();
     } else {
       hideWebtrekklet();
