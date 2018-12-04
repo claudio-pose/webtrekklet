@@ -41,7 +41,7 @@ function createWebtrekklet() {
                 marginBottom: '10px'
             })
         };
-        $('head').append('<meta property="og:url" content="https:/ / www.srf.ch / " />');
+        $('head').prepend('<meta property="og:url" content="https:/ / www.srf.ch / " />');
         fetchMetaData();
         $('html,body').scrollTop(0)
         showHideWebtrekklet();
