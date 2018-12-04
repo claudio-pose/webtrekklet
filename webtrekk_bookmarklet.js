@@ -33,10 +33,11 @@ function createWebtrekklet() {
               textAlign: 'left',
               backgroundColor: 'white',
               position: 'fixed',
-              top: '50px',
+              top: '0px',
               paddingLeft: '10px',
               paddingRight: '10px',
               width: '100%',
+              display: 'block',
               zIndex: '2000'
             })
         };
