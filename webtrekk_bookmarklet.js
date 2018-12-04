@@ -29,7 +29,7 @@ function createWebtrekklet() {
             var $t = $('<p>Die nachfolgenden Parameter können verwendet, um Reports in Webtrekk zu filtern (Gross-/Kleinschreibung beachten, der Platzhalter * kann in Report-Filter verwendet werden):</p><table align="center"><tr><td style="font-weight: bold">Content Category Level 1 (CG6)</td><td>' + json.webtrekk.content_category_1 + '</td></tr><tr><td style="font-weight: bold">Content Category Level 2 (CG7)</td><td>' + json.webtrekk.content_category_2 + '</td></tr><tr><td style="font-weight: bold">Content Category Level 3 (CG8)</td><td>' + json.webtrekk.content_category_3 + '</td></tr><tr><td style="font-weight: bold">Content Category Level 4 (CG9)</td><td>' + json.webtrekk.content_category_4 + '</td></tr><tr><td style="font-weight: bold">Article/Page ID (CG10)</td><td>' + json.webtrekk.content_id + '</td></tr><tr><td style="font-weight: bold">Content Title (CP52)</td><td>' + json.webtrekk.content_title + '</td></tr><tr><td style="font-weight: bold">Publication Date (CP32)</td><td>' + json.webtrekk.content_publication_date + '</td></tr><tr><td style="font-weight: bold"></td><td style="text-align: right"><a style="color: red" href="javascript: (function() { showHideWebtrekklet(); }());">Metadaten ausblenden</a></td></tr></table>');
             $('body').prepend($e);
             $('#webtrekklet').append($t);
-            $t.css({
+            $e.css({
               textAlign: 'left',
               position: 'block',
               paddingTop: '10px',
