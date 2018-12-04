@@ -36,7 +36,6 @@ function createWebtrekklet() {
                 marginLeft: 'auto',
                 marginRight: 'auto',
                 width: '100%',
-                backgroundColor: 'white',
                 marginTop: '10px',
                 marginBottom: '10px'
             })
