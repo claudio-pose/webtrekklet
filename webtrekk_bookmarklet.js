@@ -5,11 +5,7 @@ var webtrekkletVisible = false;
   if ($('#webtrekklet').length == 0) {
     createWebtrekklet();
   } else {
-    if (webtrekkletVisible == false) {
-      showWebtrekklet();
-    } else {
-      hideWebtrekklet();
-    }
+    showHideWebtrekklet();
   }
 }
 )();
@@ -50,22 +46,22 @@ function createWebtrekklet() {
         $('head').append('<meta property="og:url" content="https:/ / www.srf.ch / " />');
         fetchMetaData();
         $('html,body').scrollTop(0)
-        showWebtrekklet();
+        showHideWebtrekklet();
     } else {
         alert('Webtrekk Metadaten auf dieser Seite nicht verfügbar')
     }
 }
   
-function showWebtrekklet() {
-  webtrekkletDiv = $('#webtrekklet');
-  webtrekkletDiv.style.display='block';
-  webtrekkletDiv.style.visibility='visible';
-  webtrekkletVisible = true;  
-}
-
-function hideWebtrekklet() {
-  webtrekkletDiv = $('#webtrekklet');
-  webtrekkletDiv.style.display='none';
-  webtrekkletDiv.style.visibility='hidden';
-  webtrekkletVisible = false;
+function showHideWebtrekklet() {
+    if (webtrekkletVisible == false) {
+      webtrekkletDiv = $('#webtrekklet');
+      webtrekkletDiv.style.display='block';
+      webtrekkletDiv.style.visibility='visible';
+      webtrekkletVisible = true;  
+    } else {
+      webtrekkletDiv = $('#webtrekklet');
+      webtrekkletDiv.style.display='none';
+      webtrekkletDiv.style.visibility='hidden';
+      webtrekkletVisible = false;
+    }
 }
