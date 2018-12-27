@@ -1,5 +1,3 @@
-var webtrekkletVisible = false;
-
 (function() {
   if ($('#webtrekklet').length == 0) {
     window.initWebtrekklet();
@@ -49,12 +47,12 @@ window.initWebtrekklet = function() {
     }
     
     window.showHideWebtrekklet = function() {
-        if (webtrekkletVisible == false) {
+        if ($('#webtrekklet').length == 0) {
+          if ($('#webtrekklet').is(":visible")) {
+              $('#webtrekklet').css('visibility', 'hidden');
+          } else {
             $('#webtrekklet').css('visibility', 'visible');
-            webtrekkletVisible = true;  
-        } else {
-            $('#webtrekklet').css('visibility', 'hidden');
-            webtrekkletVisible = false;
+          }
         }
     };
 };
