@@ -47,14 +47,13 @@ function initWebtrekklet() {
     window.showHideWebtrekklet = function() {
         alert('showHideCall');
         if ($('#webtrekklet').length > 0) {
-          if ($('#webtrekklet').is(":visible")) {
-              $('#webtrekklet').css('visibility', 'hidden');
+          if ($('#webtrekklet').is(":hidden")) {
+              $('#webtrekklet').css('visibility', 'visible');
               $('html,body').scrollTop(0);
           } else {
-            $('#webtrekklet').css('visibility', 'visible');
+            $('#webtrekklet').css('visibility', 'hidden');
           }
         }
     };
 }
-  
 
