@@ -10,7 +10,7 @@ var webtrekkletVisible = false;
 )();
 
 
-window.initWebtrekklet = function(){
+window.initWebtrekklet = function() {
     tracking = null;
     weburl = null;
     if (typeof fetchMetaData === typeof(Function)) {
@@ -48,7 +48,7 @@ window.initWebtrekklet = function(){
         alert('Webtrekk Metadaten auf dieser Seite nicht verfügbar')
     }
     
-    window.showHideWebtrekklet = function(){
+    window.showHideWebtrekklet = function() {
         if (webtrekkletVisible == false) {
             $('#webtrekklet').css('visibility', 'visible');
             webtrekkletVisible = true;  
