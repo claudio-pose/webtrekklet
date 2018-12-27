@@ -2,14 +2,15 @@ var webtrekkletVisible = false;
 
 (function() {
   if ($('#webtrekklet').length == 0) {
-    initWebtrekklet();
+    window.initWebtrekklet();
   } else {
     window.showHideWebtrekklet();
   }
 }
 )();
 
-function initWebtrekklet() {
+
+window.initWebtrekklet = function(){
     tracking = null;
     weburl = null;
     if (typeof fetchMetaData === typeof(Function)) {
@@ -58,6 +59,6 @@ function initWebtrekklet() {
     };
     
     window.showHideWebtrekklet();
-}
+};
   
 
