@@ -4,7 +4,7 @@ var webtrekkletVisible = false;
   if ($('#webtrekklet').length == 0) {
     initWebtrekklet();
   } else {
-    showHideWebtrekklet();
+    window.showHideWebtrekklet();
   }
 }
 )();
@@ -57,7 +57,7 @@ function initWebtrekklet() {
         }
     };
     
-    showHideWebtrekklet();
+    window.showHideWebtrekklet();
 }
   
 
