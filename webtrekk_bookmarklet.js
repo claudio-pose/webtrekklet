@@ -46,7 +46,8 @@ function initWebtrekklet() {
     
     window.showHideWebtrekklet = function() {
         if ($('#webtrekklet').length > 0) {
-            $('#webtrekklet').toggle();;
+            $('#webtrekklet').toggle();
+            $('html,body').scrollTop(0);
         }
     };
 }
