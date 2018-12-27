@@ -1,12 +1,12 @@
 (function() {
     if ($('#webtrekklet').length == 0) {
-        window.initWebtrekklet();
+        initWebtrekklet();
     }
     
     window.showHideWebtrekklet();
 })();
 
-window.initWebtrekklet = function() {
+function initWebtrekklet() {
     tracking = null;
     weburl = null;
     if (typeof fetchMetaData === typeof(Function)) {
@@ -53,6 +53,6 @@ window.initWebtrekklet = function() {
           }
         }
     };
-};
+}
   
 
