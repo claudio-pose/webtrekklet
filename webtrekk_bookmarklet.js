@@ -45,6 +45,7 @@ function initWebtrekklet() {
     }
     
     window.showHideWebtrekklet = function() {
+        alert('showHideCall');
         if ($('#webtrekklet').length > 0) {
           if ($('#webtrekklet').is(":visible")) {
               $('#webtrekklet').css('visibility', 'hidden');
