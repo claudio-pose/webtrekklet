@@ -1,10 +1,9 @@
 (function() {
     if ($('#webtrekklet').length == 0) {
         initWebtrekklet();
+    } else {
         window.showHideWebtrekklet();
     }
-    
-    window.showHideWebtrekklet();
 })();
 
 function initWebtrekklet() {
