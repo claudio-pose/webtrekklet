@@ -47,7 +47,7 @@ window.initWebtrekklet = function() {
     }
     
     window.showHideWebtrekklet = function() {
-        if ($('#webtrekklet').length == 0) {
+        if ($('#webtrekklet').length > 0) {
           if ($('#webtrekklet').is(":visible")) {
               $('#webtrekklet').css('visibility', 'hidden');
           } else {
