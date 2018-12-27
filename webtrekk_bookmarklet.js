@@ -9,7 +9,6 @@ var webtrekkletVisible = false;
 }
 )();
 
-
 window.initWebtrekklet = function() {
     tracking = null;
     weburl = null;
