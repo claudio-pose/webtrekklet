@@ -1,12 +1,10 @@
 (function() {
-  if ($('#webtrekklet').length == 0) {
-    window.initWebtrekklet();
-  }
-  
-  window.showHideWebtrekklet();
-
-}
-)();
+    if ($('#webtrekklet').length == 0) {
+        window.initWebtrekklet();
+    }
+    
+    window.showHideWebtrekklet();
+})();
 
 window.initWebtrekklet = function() {
     tracking = null;
