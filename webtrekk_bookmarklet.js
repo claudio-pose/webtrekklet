@@ -39,7 +39,6 @@ function initWebtrekklet() {
         };
         $('head').prepend('<meta property="og:url" content="https:/ / www.srf.ch / " />');
         fetchMetaData();
-        $('html,body').scrollTop(0);
     } else {
         alert('Webtrekk Metadaten auf dieser Seite nicht verfügbar')
     }
@@ -47,7 +46,6 @@ function initWebtrekklet() {
     window.showHideWebtrekklet = function() {
         if ($('#webtrekklet').length > 0) {
             $('#webtrekklet').toggle();
-            $('html,body').scrollTop(0);
         }
     };
 }
