@@ -3,9 +3,10 @@ var webtrekkletVisible = false;
 (function() {
   if ($('#webtrekklet').length == 0) {
     window.initWebtrekklet();
-  } else {
-    window.showHideWebtrekklet();
   }
+  
+  window.showHideWebtrekklet();
+
 }
 )();
 
@@ -56,8 +57,6 @@ window.initWebtrekklet = function() {
             webtrekkletVisible = false;
         }
     };
-    
-    window.showHideWebtrekklet();
 };
   
 
