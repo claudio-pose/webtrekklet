@@ -1,6 +1,7 @@
 (function() {
     if ($('#webtrekklet').length == 0) {
         initWebtrekklet();
+        window.showHideWebtrekklet();
     }
     
     window.showHideWebtrekklet();
