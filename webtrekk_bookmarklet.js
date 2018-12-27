@@ -2,7 +2,7 @@ var webtrekkletVisible = false;
 
 (function() {
   if ($('#webtrekklet').length == 0) {
-    createWebtrekklet();
+    initWebtrekklet();
   } else {
     showHideWebtrekklet();
   }
