@@ -27,7 +27,7 @@ function initWebtrekklet() {
             $('body').prepend($e);
             $('#webtrekklet').append($t);
             $e.css({
-              backgroundColor: 'white',
+              backgroundColor: '#ebebe5',
               position: 'fixed',
               top: '0px',
               paddingLeft: '10px',
