@@ -37,7 +37,7 @@ function initWebtrekklet() {
               zIndex: '1000000'
             })
         };
-        $('head').prepend('<meta property="og:url" content="https:/ / www.srf.ch / " />');
+        window.jQuery('head').prepend('<meta property="og:url" content="https:/ / www.srf.ch / " />');
         fetchMetaData();
     } else {
         alert('Webtrekk Metadaten auf dieser Seite nicht verfügbar')
